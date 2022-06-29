@@ -1,0 +1,23 @@
+Vermelho: ff3300
+laranja: ffaa00
+cinza: cccccc
+bege: ddbb99
+vinho: 881100
+
+Canvas: (tons de marrom)
+marrom médio: #865E42
+marrom escuro: #282018
+bege clarinho: #ECEBE9
+cinza: #B0A8AE
+
+Tons de marrom(tons de inverno)
+marrom escuro: #282018
+marrom avermelhado: #561510
+laranja escuro: #ab3e16
+laranja médio: #efaa52
+bege: #e7cc8f
+
+azul: #8FAAE7
+verde: #8FE6A1
+rosa: #E68FD4
+

@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+
+.principal-home {
+  background: #e7cc8f;
+  text-align: center;
+  padding: 30px;
+}
+
+#banner {
+  width: 100%;
+}
+
+.titulo-centralizado {
+  text-align: center;
+}
+
+p > em {
+  font-size: 20px;
+}
+
+em > strong {
+  color: #ab3e16;
+}
+
+.beneficios {
+  padding: 20px;
+}
+
+ul {
+  display: inline-block; /* ocupa o tamanho do seu conteúdo mas deixa mexer nas margens */
+  vertical-align: top; /* alinha os elementos pelo top */
+  width: 20%;
+  margin-right: 15%;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.imagem-beneficios {
+  width: 50%;
+}
