@@ -2,8 +2,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.conteudo-home {
+  background: linear-gradient(#fefefe, rgba(171, 62, 22, 0.6));
+}
+
 header {
-  background: #e6cc8f;
+  background: rgba(230, 204, 143, 0.8);
   padding: 20px 0;
 }
 
@@ -39,7 +43,7 @@ nav a:hover {
 
 /* produtos */
 .produtos {
-  width: 940px;
+  width: 1000px;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -52,16 +56,16 @@ nav a:hover {
   margin: 0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 2px solid #333;
   border-radius: 10px;
 }
 
 .produtos li:hover {
-  border-color: #8faae7;
+  box-shadow: 10px 10px 5px #333;
 }
 
 .produtos li:active {
-  border-color: #8fe6a1;
+  box-shadow: 10px 10px 5px #333;
 }
 
 .produtos li:hover h2 {
@@ -119,6 +123,7 @@ form legend {
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 50%;
+  box-shadow: 9px 9px 4px #888;
 }
 
 .checkbox {
@@ -170,6 +175,13 @@ th {
   clear: left;
 }
 
+.principal-home {
+  padding: 3em 0;
+
+  width: 940px;
+  margin: 0 auto;
+}
+
 .principal-home p {
   margin: 0 0 1em;
 }
@@ -192,6 +204,11 @@ th {
   padding: 3em 0;
 }
 
+.mapa-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
@@ -208,12 +225,22 @@ th {
 
 .imagem-beneficios {
   width: 59%;
+  box-shadow: 10px 10px 5px #000;
+}
+
+.imagem-beneficios:hover {
+  opacity: 0.6;
+  transition: 400ms;
 }
 
 .lista-beneficios {
   width: 39%;
   display: inline-block;
   vertical-align: top;
+}
+
+.itens:before {
+  content: "★";
 }
 
 .itens {
@@ -227,4 +254,52 @@ th {
 .video {
   width: 560px;
   margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+  .caixa,
+  .principal-home,
+  .conteudo-beneficios,
+  .mapa-conteudo,
+  .video,
+  legend ~ label {
+    width: auto;
+  }
+
+  .caixa {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  .lista-beneficios,
+  .imagem-beneficios {
+    width: 100%;
+  }
+
+  .conteudo-home {
+    padding: 0 5px;
+  }
+
+  form {
+    display: block;
+    width: 50%;
+    margin: 5vmax;
+  }
+
+  .produtos li {
+    display: block;
+    width: 30%;
+    margin: 5vmax;
+  }
+
+  .legend {
+    word-break: normal;
+  }
 }
