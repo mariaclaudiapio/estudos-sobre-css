@@ -1,9 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-.conteudo-home {
-  background: linear-gradient(#fefefe, rgba(171, 62, 22, 0.6));
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 header {
@@ -164,8 +164,68 @@ th {
 }
 
 /* estilização da página home */
-.banner {
+.wrapper {
   width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(#fefefe, rgba(171, 62, 22, 0.6));
+}
+
+.conteudo-home {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* essa é a propriedade responsável pelo efeito parallax*/
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-babackground-size: cover;
+}
+
+section.module.parallax-1 {
+  background-image: url("../img/banner.jpg");
+}
+
+section.module.parallax:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #111 100%
+  );
 }
 
 .titulo {
@@ -175,22 +235,21 @@ th {
   clear: left;
 }
 
-.principal-home {
+.module content {
   padding: 3em 0;
-
   width: 940px;
   margin: 0 auto;
 }
 
-.principal-home p {
+.container p {
   margin: 0 0 1em;
 }
 
-.principal-home strong {
+.container strong {
   font-weight: bold;
 }
 
-.principal-home em {
+.container em {
   font-style: italic;
 }
 
@@ -201,7 +260,7 @@ th {
 }
 
 .mapa {
-  padding: 3em 0;
+  padding: 1em 0;
 }
 
 .mapa-conteudo {
@@ -212,6 +271,10 @@ th {
 .mapa p {
   margin: 0 0 2em;
   text-align: center;
+}
+
+section.module.parallax-2 {
+  background-image: url("../img/barbearia.jpg");
 }
 
 .beneficios {
@@ -258,7 +321,7 @@ th {
 
 @media screen and (max-width: 480px) {
   .caixa,
-  .principal-home,
+  .container,
   .conteudo-beneficios,
   .mapa-conteudo,
   .video,
