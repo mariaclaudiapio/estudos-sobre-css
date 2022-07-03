@@ -197,7 +197,7 @@ section.module.parallax {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh !important;
+  height: 100vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -319,7 +319,8 @@ section.module.parallax-2 {
   margin: 2em auto;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) */
+@media (max-width: 800px) {
   .caixa,
   .container,
   .conteudo-beneficios,
@@ -346,6 +347,10 @@ section.module.parallax-2 {
     width: 100%;
   }
 
+  .imagem-beneficios {
+    margin-top: 2em;
+  }
+
   .conteudo-home {
     padding: 0 5px;
   }
@@ -356,6 +361,32 @@ section.module.parallax-2 {
     margin: 5vmax;
   }
 
+  .container-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  fieldset {
+    width: 70%;
+    margin: 3% 0;
+  }
+
+  .checkbox {
+    width: 82vw;
+  }
+
+  .container-checkbox {
+    box-sizing: border-box;
+  }
+
+  .enviar {
+    margin: 10%;
+  }
+
+  table {
+    margin: 5% 5% 5% 9%;
+  }
   .produtos li {
     display: block;
     width: 30%;
