@@ -236,19 +236,6 @@ section.module.parallax-2 {
   margin-top: 10px;
 }
 
-/* rodapé */
-footer {
-  text-align: center;
-  background: url("../img/bg.jpg");
-  padding: 40px 0;
-}
-
-.copyright {
-  color: #fff;
-  font-size: 13px;
-  margin: 20px 0 0;
-}
-
 /* estilização da página contato */
 .principal-contato {
   width: 940px;
@@ -315,6 +302,20 @@ th {
   border: 1px solid #000;
   padding: 8px 15px;
 }
+
+/* rodapé */
+footer {
+  text-align: center;
+  background: url("../img/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  margin: 20px 0 0;
+}
+
 
 /* @media screen and (max-width: 480px) */
 @media (max-width: 800px) {
