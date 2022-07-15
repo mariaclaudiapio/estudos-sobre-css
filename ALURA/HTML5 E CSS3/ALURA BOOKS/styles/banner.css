@@ -12,7 +12,8 @@
 
 .banner__texto {
     font-weight: 500;
-    margin: 1em 0;
+    line-height: 1.5em;
+    margin: 2em 0;
 }
 
 .banner__pesquisa {
@@ -51,10 +52,12 @@
 @media screen and (min-width: 1728px) {
     .banner__pesquisa {
         width: 35%;
+        padding: 2em;
+        
     }
 
     .banner__pesquisa::placeholder {
-        background-position: 12em;
+        background-position: 9em;
     }
 
     .banner {
