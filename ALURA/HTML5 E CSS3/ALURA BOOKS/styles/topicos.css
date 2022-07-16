@@ -30,6 +30,11 @@
     font-weight: 700;
 }
 
+.topicos__link:hover {
+    background-color: transparent;
+    border: solid 1px var(--laranja);
+}
+
 @media screen and (min-width: 1024px) {
     
 
