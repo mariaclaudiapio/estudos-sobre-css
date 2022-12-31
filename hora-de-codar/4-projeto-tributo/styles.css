@@ -1,0 +1,102 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('./img/plano_de_fundo_5.jpg');
+    font-size: 18px;
+}
+
+.container {
+    max-width: 80%;
+    background-color: #FFECEB;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+figcaption {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+span {
+    font-weight: bold;
+    color: #1c7c54;
+}
+
+img {
+    max-width: 70vw;
+    border-radius: 10px
+}
+
+/* header */
+header {
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    color: #87081d;
+}
+
+.main-paragraph {
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* imagem de destaque */
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* história da marca */
+.history-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #A7724D;
+    border-bottom: 1px dashed #A7724D;
+    text-align: justify;
+}
+
+/* container de citação */
+h2 {
+    color: #87081d;
+}
+
+.quotes-container {
+    /* background-color: #F5BEBE; 
+    background-color: #E4CCCA;*/
+    /* background-color: #F4C0CA;  */
+    background-color: #ffdfd8;
+    /* background-color: #EEA3BB; */
+    /* background-color: #FBD4E4;  */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+}
+
+/* curiosidades */
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #A7724D;
+    border-bottom: 1px dashed #A7724D;
+}
+
+.curiosities-container li {
+    line-height: 2rem;
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+}

@@ -1,0 +1,9 @@
+h4 {
+    font-size: 60px;
+    background-image: linear-gradient(#b92b27, #1565C0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,212 @@
+h2,
+h3 {
+    text-align: center;
+}
+
+.text-aligned {
+    text-align: right;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+.text-aligned-2 {
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.text-aligned-3 {
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+/* Fontes */
+
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: 'Courier New';
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* Estilos de Fontes */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* font-weight */
+.thin,
+.bold,
+.bolder {
+    font-family: Helvetica;
+}
+
+.thin {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* Fonte Size */
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #44ff88;
+    margin: 10px;
+    display: inline-block;
+    /* display: inline; */
+}
+
+.block {
+    background-color: #333333;
+    color: #ffffff;
+    display: block;
+    margin: 1px;
+}
+
+.none {
+    display: none;
+}
+
+/* posições dos elementos */
+.static {
+    position: static;
+    background-color: #339911;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    /* top: 100px; // altura e largura não funcionam com a posição estática 
+    left: 100px; */
+}
+
+.relative {
+    position: relative;
+    background-color: #222444;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: #996644;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #442222;
+    color: #ffffff;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px; /* para o quadrado ficar dentro do container, o container deverá ter posição relative */
+}
+
+.absolute-2 {
+    top: -50px;
+    left: 100px;
+}
+
+.fixed { /* o position fixed fica acima de todos os elementos */
+    width: 100px;
+    height: 100px;
+    background-color:#ff0000;    
+    color: #ffffff;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color:#0000ff;    
+    color: #ffffff;
+    top: 10px;
+    right: 10px;
+    position: sticky;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    z-index: 1;
+}
+
+.absolute-4 {
+    top: 50px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    z-index: 3;
+}
+
+.absolute-5 {
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+    color: white;
+    z-index: 2;
+}
+
