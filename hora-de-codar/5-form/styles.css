@@ -1,0 +1,23 @@
+body {
+    padding-bottom: 500px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+div input,
+div label {
+    display: block;
+}
+
+h4 {
+    color: gray;
+    margin-bottom: 7px;
+}
+
+.radio label,
+.radio input,
+.radio span {
+    display: inline-block;
+}
