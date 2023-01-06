@@ -1,0 +1,64 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0ebf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+   color: #333333; 
+}
+
+p,
+label {
+    color: #444444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0;
+}
+
+input[type='text'],
+input[type='number'], 
+input[type='date'],
+input[type='file'],
+textarea {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px
+}
+
+/* header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #673ab7;
+}
+
+.header h3 {
+    color: #ffffff;
+    margin-top: 0;
+}
+
+/* form container */
+.form-container {
+    background-color: #fdfdfd;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+  
+    
