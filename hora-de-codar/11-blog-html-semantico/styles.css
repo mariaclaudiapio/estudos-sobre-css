@@ -11,8 +11,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: #444;
+    color: #444444;
     transition: .4s;
+    /* color: white; */
 }
 
 a:hover {
@@ -23,6 +24,7 @@ a:hover {
 #navbar {
     padding: 1.5rem 2.5rem;
     border-bottom: 2px solid #dddddd;
+    /* background-image: url("xadrez.jpg"); */
 }
 
 #navbar-inner {
@@ -143,7 +145,7 @@ a:hover {
     .container {
         flex-wrap: wrap;
     }
-    
+
     .description {
         text-align: justify;
     }
