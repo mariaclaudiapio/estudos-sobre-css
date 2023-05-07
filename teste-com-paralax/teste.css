@@ -70,7 +70,7 @@ section.module.parallax {
 }
 
 section.module.parallax-1 {
-  background-image: url("./IMG/crepusculo.jpg");
+  background-image: url("./IMG/crepusculo.jpg");  
 }
 
 section.module.parallax:after {
@@ -79,12 +79,13 @@ section.module.parallax:after {
   width: 100%;
   position: absolute;
   z-index: 8;
-  background: linear-gradient(
+  
+  /* background: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0) 0,
     rgba(0, 0, 0, 0) 40%,
     #000 100%
-  );  
+  );   */
 }
 
 section.module.parallax-2 {
