@@ -1,0 +1,148 @@
+:root {
+    --cor-principal: #FFF2E7;
+    --cor-secundaria: #ECD6C4;
+}
+
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background-size: 400% 400%;
+    position: relative;
+    animation: backgroundTransition 8s ease-in-out infinite;    
+}
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 80%;
+    }
+
+    50% {
+        background-position: 80% 100%;
+    }
+
+    100% {
+        background-position: 0% 90%;
+    }
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    padding: 1rem;
+}
+
+.cabecalho__imagem {    
+    height: 3rem;
+}
+
+.cabecalho__item {
+    margin-right: 2.5rem;
+    font-family: "Sarala", sans-serif;
+    font-size: 18px;   
+    color: var(--cor-principal);   
+}
+
+.principal {
+    margin-bottom: 3rem;
+    border-top: 0.4px solid var(--cor-principal);    
+}
+
+.principal__secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal__container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.principal__titulo {
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--cor-principal);
+}
+
+.principal__subtitulo {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-secundaria);
+}
+
+.principal__botao {
+    background-color: var(--cor-secundaria);
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.principal__botao:hover {
+    background-color: transparent;
+    color: var(--cor-principal);
+    border: 1px solid var(--cor-principal);    
+    box-shadow: 7px 7px 7px rgba(255, 242, 231, 0.25);
+}
+
+.principal__imagem {
+    height: 430px;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.descricao__titulo {
+    border-top: 0.4px solid var(--cor-principal);
+    padding-top: 48px;
+    font-family: "Righteous", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-principal);
+    margin-bottom: 16px;
+}
+
+.descricao__texto {
+    font-family: "Sarala", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid var(--cor-principal);    
+}
+
+.rodape__imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* retomar do minuto 44
+https://www.youtube.com/watch?v=llF6vD-RljE
+*/
