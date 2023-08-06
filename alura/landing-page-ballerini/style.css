@@ -1,3 +1,5 @@
+/* #538F79 */
+
 :root {
     --cor-principal: #FFF2E7;
     --cor-secundaria: #ECD6C4;
@@ -12,7 +14,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(-45deg, #2F2325, #8E5D52, #BEA89A);
     background-size: 400% 400%;
     position: relative;
     animation: backgroundTransition 8s ease-in-out infinite;    
@@ -49,6 +51,10 @@ body {
     font-family: "Sarala", sans-serif;
     font-size: 18px;   
     color: var(--cor-principal);   
+}
+
+.cabecalho__item:hover {
+    color: #538F79;
 }
 
 .principal {
@@ -100,6 +106,7 @@ body {
     color: var(--cor-principal);
     border: 1px solid var(--cor-principal);    
     box-shadow: 7px 7px 7px rgba(255, 242, 231, 0.25);
+    box-shadow: 7px 7px 7px rgba(83, 143, 121, .25);
 }
 
 .principal__imagem {
